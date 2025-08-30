@@ -33,3 +33,21 @@ Small **sample dataset files** are included in `Dataset/` for quick testing:
 
 🔗 Full dataset can be downloaded from: [NSL-KDD Dataset](https://www.unb.ca/cic/datasets/nsl.html)  
 Place the files in the `Dataset/` folder before running training.
+
+#### Run the Streamlit GUI (VS Code or Terminal)
+
+#### Setup:
+
+cd project-folder/
+pip install -r requirements.txt
+Launch GUI:
+streamlit run app.py
+
+
+GUI Features
+Input network traffic features from the sidebar
+
+Select a model (Logistic Regression, XGBoost, Random Forest, SVM)
+
+View predicted attack type and visual highlight
+
